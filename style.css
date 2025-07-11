@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(#1d1f27, #0a0b10);
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#map {
+  margin: 20px auto;
+  width: 90%;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #888;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3a77f0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #295ecb;
+}
+
+#result {
+  margin-top: 20px;
+  font-style: italic;
+  white-space: pre-wrap;
+}
